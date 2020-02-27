@@ -1,0 +1,20 @@
+.header-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-weight: 600;
+  font-size: 17px;
+  background: #90bdb7;
+  color: #fff;
+}
+
+.header-container a,
+.header-container span {
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-container span {
+  padding-left: 20px;
+}

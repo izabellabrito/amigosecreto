@@ -1,0 +1,12 @@
+.alert-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #83C0BF;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 0px;
+  font-size: 13px;
+}

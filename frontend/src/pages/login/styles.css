@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.side-form {
+    flex: 1 1 200px;
+}
+
+.side-form img {
+    height: 100vh;
+}
+
+.form-container {
+    flex: 1 1 550px;
+}
+
+@media (max-width: 765px) {
+    .side-form {
+        display: none;
+    }
+
+    .container {
+        height: 100vh;
+    }
+
+    .form-container {
+        margin: 0 20px;
+    }
+}
+
+.form-container h1 {
+    color: rgb(244, 153, 130);
+    margin-bottom: 10px;
+}
+
+.form-container form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.form-container form span {
+    color: #666666;
+    font-weight: 600;
+    font-size: 13px;
+    margin: 20px 0 5px 0;
+}
+
+.form-container form input {
+    color: #A1A1A1;
+    font-family: "Raleway";
+    font-size: 12px;
+    font-weight: 600;
+    opacity: .8;
+    border: 0;
+    background: rgba(219, 219, 219, 0.377);
+    padding: 15px 10px;
+    border-radius: 5px;
+}
+
+.form-container form button, .form-container form a {
+    border: 0;
+    background: #84C0C0;
+    color: #fff;
+    max-width: 90px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.form-container form a {
+    margin: 0 10px;
+    background: #F8C07F;
+}
+
+.form-container form button:hover, .form-container form a:hover {
+    opacity: .9;
+}
